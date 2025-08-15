@@ -14,7 +14,7 @@ function App() {
         <p className="text-base/loose mb-6 opacity-50">Bachelor of Informatics Engineering Student from Malikussaleh University. Who interested in Graphic Design and the field of web developer especially Frontend Engineering</p>
         <div className="flex items-center sm:gap-4 gap-2">
           <a href={Resume} download={Resume} className="bg-cyan-600 p-3 rounded-lg block border-zinc-600 hover:bg-cyan-500">Download CV <i className="ri-download-cloud-2-line"></i></a>
-          <a href="#pengalaman" className="bg-zinc-600 p-4 rounded-2xl hover:bg-zinc-500">Lihat Pengalaman <i className="ri-eye-line"></i></a>
+          <a href="#pengalaman" className="bg-zinc-600 p-3 rounded-lg block hover:bg-zinc-500">Lihat Pengalaman <i className="ri-eye-line"></i></a>
         </div>
       </div>
         <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] ml-auto md:ml-auto animate__animated animate__fadeInRight animate__delay-2s"/>
